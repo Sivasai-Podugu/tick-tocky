@@ -30,16 +30,23 @@ TimerFlow is a modern, user-friendly timer management application built with Rea
 
 ### Installation
 
-1. Clone the repository:
-    git clone https://github.com/yourusername/tick-tocky.git
+### Installation
 
+1. Clone the repository:
+```
+git clone https://github.com/yourusername/tick-tocky.git
+```
 
 2. Install dependencies:
-    npm install
+```
+npm install
+```
 
 
 3. Start the development server:
-    npm run dev
+```
+npm run dev
+```
 
 
 ## Usage
@@ -60,11 +67,11 @@ TimerFlow is a modern, user-friendly timer management application built with Rea
 
 ## Project Structure
 
-src/
-  ├── components/     # React components
-  ├── context/        # React context providers
-  ├── hooks/          # Custom React hooks
-  ├── pages/          # Page components
-  ├── types/          # TypeScript type definitions
-  ├── utils/          # Utility functions
-  └── App.tsx         # Root component
+The project follows a well-organized directory structure:
+- **components/**: Contains reusable React components
+- **context/**: Houses context providers for global state management
+- **hooks/**: Custom React hooks for shared functionality
+- **pages/**: Page-level components for different routes
+- **types/**: TypeScript types, interfaces, and enums
+- **utils/**: Helper functions and utility methods
+- **App.tsx**: Main application component and routing setup
