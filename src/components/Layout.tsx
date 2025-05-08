@@ -6,7 +6,7 @@ const Layout: React.FC = () => {
   const { pathname } = useLocation();
   
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="h-screen flex flex-col fixed inset-0 bg-gray-50">
       <header className="bg-indigo-600 text-white shadow-md">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <h1 className="text-2xl font-bold flex items-center gap-2">
@@ -16,7 +16,7 @@ const Layout: React.FC = () => {
         </div>
       </header>
       
-      <main className="flex-grow container mx-auto px-4 py-6">
+      <main className="flex-1 container mx-auto px-4 py-6">
         <Outlet />
       </main>
       

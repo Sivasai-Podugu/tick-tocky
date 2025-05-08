@@ -97,7 +97,7 @@ const CategoryGroup: React.FC<CategoryGroupProps> = ({ category }) => {
       </div>
       
       {isExpanded && (
-        <div className="p-4 border-t border-gray-200">
+        <div className="p-4 border-t border-gray-200 max-h-[24rem] overflow-auto scrollbar-hide">
           {category.timers.map((timer) => (
             <TimerCard key={timer.id} timer={timer} />
           ))}

@@ -79,7 +79,7 @@ const Home: React.FC = () => {
           </button>
         </div>
       ) : (
-        <div>
+        <div className="overflow-auto max-h-[calc(100vh-16rem)] rounded-lg scrollbar-hide">
           {filteredCategories.map((category) => (
             <CategoryGroup key={category.name} category={category} />
           ))}
